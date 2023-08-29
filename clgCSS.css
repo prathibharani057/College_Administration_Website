@@ -1,0 +1,167 @@
+/* Reset default margin and padding */
+body, h1, h2, p, img {
+  margin: 5px;
+  padding: 0;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+
+
+header {
+  background-color: rgba(52, 152, 219, 0.65); /* Adjust the RGB values and opacity as needed */
+  color: white;
+  padding: 10px 10px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+
+}
+.header-nav{
+  font-size: 25px;
+}
+
+.header-logo {
+  max-width: 100px;
+  height: auto;
+  margin-right: 20px;
+  float: right;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+}
+
+/* ... your existing CSS styles ... */
+
+.header-logo {
+  max-width: 100px;
+  height: auto;
+  margin-right: 20px 10px 0;
+}
+
+.login{
+  display: inline-block;
+  text-decoration: none;
+  color: #3498db;
+  margin: 0 20px 15px;
+  padding: 8px 12px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 25px;
+  float: right;
+}
+
+.login a:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+img { margin: 0 10px 0;
+  width: 40%;
+  height: 10%;
+}
+
+h2 {
+  color: #333;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+marquee {
+  display: inline-block;
+  text-decoration: none;
+  color: #3498db;
+  margin: 15px 15px;
+  padding: 8px 12px ;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+   background-color: white;
+   box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.9);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.marquee-content {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.marquee-content p {
+  white-space: nowrap;
+  display: inline-block;
+  margin: 0;
+}
+
+.description {
+   margin: 15px 15px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+   border: 2px solid #3498db;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.links a {
+  display: inline-block;
+  text-decoration: none;
+  color: #3498db;
+  margin: 0 15px;
+  padding: 8px 12px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 20px;
+}
+
+footer {
+  background-color: white;
+  color: #3498db;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  margin-top: 15px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+}
+
+footer p {
+  margin: 0;
+
+}
+hr {
+  border-top: 2px solid #3498db;
+}
